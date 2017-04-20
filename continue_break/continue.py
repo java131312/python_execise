@@ -5,7 +5,11 @@ def cont():
 			continue
 		else:
 			print i
+def func(a,b):
+	print a + b
+
 if __name__ =="__main__":
-	print("main")
-	cont()
+#	print("main")
+#	func(1,2,3)i
+	
 
