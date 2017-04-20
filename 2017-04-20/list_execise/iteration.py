@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*-
+G# -*- coding:utf-8 -*-
  
 d = {'a':1,'b':2,'c':3}
  
@@ -50,3 +50,18 @@ L = ['Hello','World','IBM','Apple' ]
 print [s.lower() for s in L ]
 
 print isinstance(1,str) #判断是否式字符串。
+
+
+嵌套的列表可以拆开
+p = ['asp','php']
+s = ['python', 'java',p,'scheme']
+
+ p = ['asp','php']
+>>> s = ['python', 'java', p, 'scheme']
+>>> p[1]
+'php'
+
+tuple
+另一种有序列表叫元组，： tuple和list非常类似，但是tuple一旦初始化就不能修改，比如同样的列出同学的名字。
+
+classmate = ('Michael','bob','Tracy')
