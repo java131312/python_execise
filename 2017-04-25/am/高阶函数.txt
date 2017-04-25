@@ -1,0 +1,3 @@
+高阶函数英文叫Higher-orger function. 什么是高阶函数，
+变量可以指向函数。
+
