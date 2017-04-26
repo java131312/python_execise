@@ -1,0 +1,55 @@
+
+pyright", "credits" or "license" for more information.
+>>> a='1'
+>>> type(a)
+<type 'str'>
+>>> a=1
+>>> type(a)
+<type 'int'>
+>>> a=[]
+>>> type(a)
+<type 'list'>
+>>> a={}
+>>> type(a)
+<type 'dict'>
+>>> a=[]
+>>> type(a)
+<type 'list'>
+>>> a=()
+>>> type(a)
+<type 'tuple'>
+>>> a=True
+>>> type(a)
+<type 'bool'>
+>>> a=1.2
+>>> type(a)
+<type 'float'>
+>>> a=u'1'
+>>> type(a)
+<type 'unicode'>
+>>> type(12)==type(456)
+True
+>>> type(123)=int
+  File "<stdin>", line 1
+SyntaxError: can't assign to function call
+>>> type(123)==int
+True
+>>> type('123')==type('123')
+True
+>>> type('abc')==str
+True
+>>> type('abc')==type(123)
+False
+>>> import types
+>>> def fn():
+...     pass
+... 
+>>> type(fn)==types.FunctionType
+True
+>>> type(abs)==types.BuiltinFunctionType
+True
+>>> type(lambda x:x)==types.LambdaType
+True
+>>> type((x for x in range(10)))==types.GeneratorType
+True
+>>> 
