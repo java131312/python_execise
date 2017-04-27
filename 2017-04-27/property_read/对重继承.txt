@@ -1,0 +1,18 @@
+继承是面向对象编程的一个重要的方式，因为通过继承，子类就可以扩展父类的功能。
+Dog Bat Parrot Ostrich
+      Animal
+Mammal Bird
+Dog Bat Parrot Ostrich
+
+Animal
+Runnable Flyable
+
+Dog Ostrich Parrot Bat
+
+         Animal
+Mammal            BirD
+
+MRun MFly BRun BFly
+
+Dog   Bat Ostrich Parrot
+
