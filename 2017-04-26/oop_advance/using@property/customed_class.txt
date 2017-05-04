@@ -1,2 +1,0 @@
-__str__ 相对于java的toString方法
-

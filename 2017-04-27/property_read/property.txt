@@ -1,3 +1,0 @@
-@property可以读
-@字段名 .setter可以写。
-光有@property是只读属性。

@@ -1,2 +1,0 @@
-smtp.qiye.163.com
-smtp.163.com
